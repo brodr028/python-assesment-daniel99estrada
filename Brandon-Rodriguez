@@ -1,0 +1,16 @@
+correct_username == "correctusername0001"
+correct_password == "correctpassword0002"
+incorrect_username == "incorrectusername0003"
+incorrect_password == "incorrectpassword0004"
+
+
+
+
+
+print("Welcome")
+user_input = input("What is your username: " + correct_username)
+pass_input = input("What is your password:" + correct_password)
+if(username == correct_username) and (password == correct_password):
+    print("Thank you, please enjoy")
+else:
+    print("credentials are incorrect, please try again")
